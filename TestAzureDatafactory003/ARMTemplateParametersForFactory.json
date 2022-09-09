@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "TestAzureDatafactory003"
+		},
+		"LS_ADLSConnection_accountKey": {
+			"value": ""
+		},
+		"LS_ADLSTestConnection_accountKey": {
+			"value": ""
+		},
+		"LS_Blob_connectionString": {
+			"value": ""
+		},
+		"LS_BlobConnection_connectionString": {
+			"value": ""
+		},
+		"LS_BlobTestConnection_connectionString": {
+			"value": ""
+		},
+		"LS_DatabricksConnection_accessToken": {
+			"value": ""
+		},
+		"LS_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_SQLConnection_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_sasUri": {
+			"value": ""
+		},
+		"LS_ADLSConnection_properties_typeProperties_url": {
+			"value": "https://adfl200adlsgen2008.dfs.core.windows.net/"
+		},
+		"LS_ADLSTestConnection_properties_typeProperties_url": {
+			"value": "https://adfl200adlsgen2008.dfs.core.windows.net/"
+		},
+		"LS_DatabricksConnection_properties_typeProperties_existingClusterId": {
+			"value": "0812-145558-7664h8vm"
+		},
+		"LS_Gen2_properties_typeProperties_url": {
+			"value": "https://adfl200adlsgen2008.dfs.core.windows.net/"
+		},
+		"LS_HTTPConnection_properties_typeProperties_url": {
+			"value": "@{linkedService().baseURL}"
+		}
+	}
+}
